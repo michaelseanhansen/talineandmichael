@@ -1,0 +1,83 @@
+
+/******************/
+/* Complete Reset */
+/******************/
+
+
+a, a:hover, a:visited, abbr, acronym, address, applet, blockquote, big, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, html, h1, h2, h3, h4, h5, h6, hr, iframe, img, input, ins, kbd, label, legend, li, object, ol, p, pre, span, q, s, samp, small, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	color: inherit;
+}
+
+
+:focus{ outline: 0; }
+ol, ul{ list-style-type: none; list-style: none; }
+table{ border-collapse: separate; border-spacing: 0; }
+blockquote:before, blockquote:after, q:before, q:after{ content: ""; }
+blockquote, q{ quotes: "" ""; }
+strong{ font-weight: bold; }
+em{ font-style: italic; }
+
+section, header, footer, aside{ display: block; }
+
+
+
+/***************/
+/* Basic Setup */
+/***************/
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-size: 14px;
+	color: #777;
+	margin: 24px;
+}
+
+div {
+	max-width: 500px;
+	margin: 34px auto;
+}
+
+a, a:visited {
+	color:  #ff7990;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #eee;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: 6px;
+	color: #aaa;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+.link-icon {
+	width: 14px;
+}
+
+p {
+	margin-top: 14px;
+	line-height: 1.5em;
+	text-align: justify;
+}
