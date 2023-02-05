@@ -40,12 +40,13 @@ section, header, footer, aside{ display: block; }
 body {
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
 	font-size: 14px;
-	color: #777;
+	color: #333;
+	background: #00800040;
 	margin: 24px;
 }
 
 div {
-	max-width: 500px;
+	max-width: 300px;
 	margin: 34px auto;
 }
 
@@ -77,6 +78,7 @@ h3 {
 }
 
 p {
+	width: 300px;
 	margin-top: 14px;
 	line-height: 1.5em;
 	text-align: justify;
